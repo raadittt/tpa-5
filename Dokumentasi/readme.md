@@ -314,7 +314,7 @@ app.listen(PORT, () => {
 
   - Contoh dalam bentuk gambar :
 
-    ![img](register.jpg)
+    ![img](register.JPG)
 
 - Login sekaligus memberikan token (Authentication) untuk proses Authorization pada Todo (method POST) :
 
@@ -353,7 +353,7 @@ app.listen(PORT, () => {
 
   - Contoh dalam bentuk gambar (login sekaligus memberikan token yang akan digunakan pada proses authorization) :
 
-    ![img](login.jpg)
+    ![img](login.JPG)
 
 - Membuat sebuah Todo baru (method POST) :
 
@@ -376,7 +376,7 @@ app.listen(PORT, () => {
 
   - Contoh dalam bentuk gambar :
 
-    ![img](newtodo.jpg)
+    ![img](newtodo.JPG)
 
 - Melihat semua list Todo yang telah dibuat serta mengaplikasikan contoh proses Authorization dari token yang sudah kita buat pada fitur login. Ketika user belum login dan tidak punya token maka tidak akan bisa mengakses / melihat semua Todo list yang sudah dibuat (method GET) :
 
@@ -419,15 +419,15 @@ app.listen(PORT, () => {
 
   - Contoh dalam bentuk gambar :
 
-    ![img](login.jpg)
+    ![img](login.JPG)
 
       - lalu token yang terdapat pada gambar di atas digunakan pada saat akan melihat list semua todo
 
-  ![img](getalltodo.jpg)
+  ![img](getalltodo.JPG)
 
       - Ketika tidak memakai token, maka output akan menjadi seperti :
 
-  ![img](getalltodofail.jpg)
+  ![img](getalltodofail.JPG)
 
 - Melihat detail Todo (disini saya membuat detail dari Todo ketika kita mengakses salah satu Todo berdasarkan dengan id, method GET) :
 
@@ -453,7 +453,7 @@ app.listen(PORT, () => {
 
   - Contoh dalam bentuk gambar :
 
-    ![img](detailtodo.jpg)
+    ![img](detailtodo.JPG)
 
 - Mengubah Todo dimana melakukan update berdasarkan id dari Todo yang sudah dibuat(method PATCH) :
 
@@ -481,15 +481,15 @@ app.listen(PORT, () => {
 
     - Sebelum di Update :
 
-      ![img](detailtodo.jpg)
+      ![img](detailtodo.JPG)
 
     - Proses Update :
 
-      ![img](prosesupdate.jpg)
+      ![img](prosesupdate.JPG)
 
     - Sesudah di Update :
 
-      ![img](afterupdate.jpg)
+      ![img](afterupdate.JPG)
 
 - Menghapus Todo berdasarkan ID Todo yang sudah dibuat (method DELETE) :
 
@@ -512,7 +512,7 @@ app.listen(PORT, () => {
 
   - Contoh dalam bentuk gambar :
 
-    ![img](deletebyid.jpg)
+    ![img](deletebyid.JPG)
 
 - Menghapus semua Todo yang sudah dibuat (method DELETE) :
 
@@ -537,4 +537,4 @@ app.listen(PORT, () => {
 
   - Contoh dalam bentuk gambar :
 
-    ![img](deletealltodo.jpg)
+    ![img](deletealltodo.JPG)
